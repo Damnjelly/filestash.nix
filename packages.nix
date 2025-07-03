@@ -19,7 +19,7 @@
 
       meta = with lib; {
         description = "🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, …";
-        homepage = https://github.com/mickael-kerjean/filestash;
+        homepage = "https://github.com/mickael-kerjean/filestash";
         license = licenses.agpl3Only;
         maintainers = with maintainers; [dermetfan];
         platforms = platforms.linux;
